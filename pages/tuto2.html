@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tuto2</title>
+    <style>
+      body {
+        background-color: yellow;
+      }
+      .c1 {
+        background-color: red;
+        position: fixed;
+        /* right: 0px; */
+        bottom: calc(50% - 25px);
+        left: calc(50% - 50px);
+        z-index: 1;
+      }
+      .c2 {
+        background-color: rgb(0, 255, 0);
+        position: fixed;
+        /* right: 0px; */
+        bottom: calc(50% - 100px);
+        left: calc(50% - 50px);
+        z-index: 2;
+      }
+      .c3 {
+        background-color: rgb(0, 255, 0);
+        position: relative;
+        /* right: 0px; */
+        bottom: calc(50% - 100px);
+        left: calc(50% - 50px);
+        z-index: 2;
+      }
+      .box {
+        color: rgb(254, 253, 255);
+        height: 50px;
+        width: 100px;
+        padding-top: 25px;
+        text-align: center;
+        border: 2px solid blue;
+        border-radius: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c1 box">Hasnain</div>
+    <div class="c2 box">Hussain</div>
+    <div class="c3 box">Yaseen</div>
+    <div class="c3 box">Yaseen</div>
+    <div class="c3 box">Yaseen</div>
+    <div class="c3 box">Yaseen</div>
+    <div class="c4 box">Sultan</div>
+  </body>
+</html>
